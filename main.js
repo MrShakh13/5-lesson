@@ -34,6 +34,13 @@
 //     }
 
 // }
+
+
+
+// Shart operatori uchun misollar
+
+
+
 // 1,2,3-misol
 // let a = prompt("son kirit:")
 // if (a > 0) {
@@ -46,6 +53,13 @@
 //     console.log("10");
 // }
 
+
+
+
+
+
+
+
 //4-misol
 //  let a = 79;
 // b = 45;
@@ -57,19 +71,33 @@
 // } else {
 //     console.log(b)
 // }
-// 5-misol
-let a = prompt("Sonni kiriting:");
-if (a > 0) {
-    if (a % 2 == 1) {
-        console.log("Musbat toq son");
-    } else { console.log("Musbat juft son"); }
-} else if (a < 0) {
-    if (a % 2 == 0) {
-        console.log("Manfiy juft son");
-    } else { console.log("Manfiy toq son"); }
-} else if (a == 0) {
-    console.log("Son nolga teng");
-}
+
+
+
+
+
+
+
+// // 5-misol
+// let a = prompt("Sonni kiriting:");
+// if (a > 0) {
+//     if (a % 2 == 1) {
+//         console.log("Musbat toq son");
+//     } else { console.log("Musbat juft son"); }
+// } else if (a < 0) {
+//     if (a % 2 == 0) {
+//         console.log("Manfiy juft son");
+//     } else { console.log("Manfiy toq son"); }
+// } else if (a == 0) {
+//     console.log("Son nolga teng");
+// }
+
+
+
+
+
+
+
 // let a=prompt("Son kiriting:");
 // if(a>0 && a%2==1){
 //     console.log("Musbat toq son");
@@ -84,3 +112,18 @@ if (a > 0) {
 // } else if(a==0){
 //     console.log("Son nolga teng")
 // }
+
+
+
+
+// For sikl operatoriga doir masalalar
+
+
+
+
+
+// 1-misol
+let a = 25000;
+for (let i = 0; i <= 10; i = i * a) {
+    console.log("Konfet narxi: ", i)
+}
